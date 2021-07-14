@@ -1,0 +1,10 @@
+{
+  "simulation": "com.mohammadi.testcharge.RecordedSimulation",
+  "simulationId": "recordedsimulation",
+  "start": 1626193519474,
+  "description": "",
+  "scenarios": ["RecordedSimulation"],
+  "assertions": [
+
+  ]
+}

@@ -1,0 +1,8 @@
+RUN	com.mohammadi.testcharge.RecordedSimulation	recordedsimulation	1626193519474	 	3.6.1
+USER	RecordedSimulation	START	1626193528841
+REQUEST		RecordedSimulation_0:GET_http://yahoo.fr/	1626193528885	1626193529715	OK	 
+REQUEST		RecordedSimulation_0:GET_http://yahoo.fr/ Redirect 1	1626193529732	1626193529904	OK	 
+REQUEST		RecordedSimulation_0:GET_http://yahoo.fr/ Redirect 2	1626193529925	1626193530222	OK	 
+REQUEST		RecordedSimulation_0:GET_http://yahoo.fr/ Redirect 3	1626193530227	1626193531550	OK	 
+REQUEST		RecordedSimulation_0:GET_http://yahoo.fr/ Redirect 4	1626193531551	1626193531916	KO	status.find.is(302), but actually found 200
+USER	RecordedSimulation	END	1626193531966
